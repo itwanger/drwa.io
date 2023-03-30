@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T12:55:45.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="O6TFuv9yEReotbQFTIv7" version="21.0.10" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-03-30T10:11:44.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9vdJd9IrMB4C4nX0Dr0I" version="21.1.1" type="github" pages="12">
   <diagram id="C17FVuKBU3xIwM8zx1BJ" name="Page-4">
-    <mxGraphModel dx="1241" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="yEYtLmQhta4nCvI_DCNY-0" />
         <mxCell id="yEYtLmQhta4nCvI_DCNY-1" parent="yEYtLmQhta4nCvI_DCNY-0" />
@@ -5391,6 +5391,52 @@
         </mxCell>
         <mxCell id="_Jlr6KDM8Q6P0VwJ4dJh-5" value="不包含值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="481" y="352" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_d0lvzm5xZlRpmJuugHW" name="网络编程">
+    <mxGraphModel dx="704" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M13-6vtkFToVf917lCDF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-10" target="M13-6vtkFToVf917lCDF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-10" value="用户设备" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;" vertex="1" parent="1">
+          <mxGeometry x="137" y="190" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-11" target="M13-6vtkFToVf917lCDF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-11" value="网络交换机" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="322" y="178" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-12" target="M13-6vtkFToVf917lCDF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-12" value="路由器" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="487" y="177.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-13" value="防火墙" style="image;html=1;image=img/lib/clip_art/networking/Firewall_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="652" y="178" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="218" as="targetPoint" />
+            <mxPoint x="444.5" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-14" value="互联网" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" vertex="1" parent="1">
+          <mxGeometry x="408" y="44" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-15" value="服务器" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cluster_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="403" y="313" width="82" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
