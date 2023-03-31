@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T11:58:22.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uKj5xiDtFcMmpLJ5a00J" version="21.1.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-03-31T04:27:35.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LlfE-7EXuQHKtPm4aEUn" version="21.1.1" type="github" pages="12">
   <diagram id="C17FVuKBU3xIwM8zx1BJ" name="Page-4">
     <mxGraphModel dx="1104" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -5396,7 +5396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_d0lvzm5xZlRpmJuugHW" name="网络编程">
-    <mxGraphModel dx="877" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="841" dy="507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5847,6 +5847,49 @@
           <mxGeometry x="207" width="103" height="40" as="geometry">
             <mxRectangle width="103" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-190" target="M13-6vtkFToVf917lCDF-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-200" value="HTTP 请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M13-6vtkFToVf917lCDF-192">
+          <mxGeometry x="-0.1135" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-190" target="M13-6vtkFToVf917lCDF-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-190" value="Web 浏览器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-191" target="M13-6vtkFToVf917lCDF-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-191" value="Web 服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-193" value="Web 浏览器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M13-6vtkFToVf917lCDF-195" target="M13-6vtkFToVf917lCDF-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-201" value="HTTP 响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M13-6vtkFToVf917lCDF-197">
+          <mxGeometry x="-0.2108" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-195" value="Web 服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1694" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-199" value="" style="endArrow=none;html=1;rounded=0;shape=link;width=86;dashed=1;dashPattern=1 1;fillColor=#f5f5f5;strokeColor=#666666;shadow=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="266" y="1628" as="sourcePoint" />
+            <mxPoint x="569" y="1628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M13-6vtkFToVf917lCDF-202" value="TCP 连接&lt;br&gt;可靠、面向连接、字节流、流量控制、拥塞控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="278" y="1604" width="270" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
