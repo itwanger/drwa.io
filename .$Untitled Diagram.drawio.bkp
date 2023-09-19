@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-09-19T02:30:10.041Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="TODWuEh06csWTv--WVqE" version="21.7.5" type="device" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-06-16T09:36:15.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aolxzE3lMDpVoGy30D0W" version="21.2.1" type="github" pages="15">
   <diagram id="C17FVuKBU3xIwM8zx1BJ" name="Page-4">
-    <mxGraphModel dx="1514" dy="999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1187" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="yEYtLmQhta4nCvI_DCNY-0" />
         <mxCell id="yEYtLmQhta4nCvI_DCNY-1" parent="yEYtLmQhta4nCvI_DCNY-0" />
@@ -6257,50 +6257,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="kSeU3Fs5FdtbFwKx3cDP" name="第 16 页">
-    <mxGraphModel dx="1114" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-1" value="A&lt;br style=&quot;font-size: 14px;&quot;&gt;原子性" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="370" y="470" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-2" value="C&lt;br style=&quot;font-size: 14px;&quot;&gt;一致性" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="590" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-3" value="I&lt;br style=&quot;font-size: 14px;&quot;&gt;隔离性" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="490" y="590" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-4" value="D&lt;br style=&quot;font-size: 14px;&quot;&gt;持久性" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="370" y="710" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-5" value="undo log&lt;br style=&quot;font-size: 14px;&quot;&gt;保证" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="390" y="370" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-6" value="其他三个&lt;br style=&quot;font-size: 14px;&quot;&gt;兄弟保证" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="170" y="590" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="417.5" y="430" width="45" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="187.5" y="650" width="45" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-9" value="MVCC&lt;br style=&quot;font-size: 14px;&quot;&gt;保证" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="610" y="600" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-10" value="redo log&lt;br style=&quot;font-size: 14px;&quot;&gt;保证" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="400" y="830" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-11" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="627.5" y="660" width="45" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_FGUlo9Juvyv3nHBwJ6T-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
-          <mxGeometry x="417.5" y="890" width="45" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
