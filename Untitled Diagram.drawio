@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-09-19T02:30:56.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="C22Ol0HsSbMtlpT0jELL" version="21.7.5" type="device" pages="16">
+<mxfile host="Electron" modified="2023-12-25T07:50:53.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="lFeBLkoQQltxQu0l7MYr" version="22.1.11" type="device" pages="16">
   <diagram id="C17FVuKBU3xIwM8zx1BJ" name="Page-4">
-    <mxGraphModel dx="1514" dy="999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1300" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="yEYtLmQhta4nCvI_DCNY-0" />
         <mxCell id="yEYtLmQhta4nCvI_DCNY-1" parent="yEYtLmQhta4nCvI_DCNY-0" />
@@ -219,6 +219,36 @@
         </mxCell>
         <mxCell id="vM6ubN_KTfB6gx3axsvf-40" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;fontSize=16;" parent="yEYtLmQhta4nCvI_DCNY-1" vertex="1">
           <mxGeometry x="670.5" y="2312" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="9" y="2603" width="120" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-1" value="方法参数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="9" y="2603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yEYtLmQhta4nCvI_DCNY-1" source="zGV7LSBmX9K95_YwwIRA-2" target="zGV7LSBmX9K95_YwwIRA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-2" value="对象引用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="9" y="2663" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-3" value="局部变量&lt;br&gt;（基本数据类型）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="9" y="2723" width="120" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-4" value="栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="39" y="2797" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="213" y="2603" width="120" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-7" value="对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="213" y="2603" width="120" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-8" value="字符串常量池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="213" y="2716" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGV7LSBmX9K95_YwwIRA-9" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yEYtLmQhta4nCvI_DCNY-1">
+          <mxGeometry x="243" y="2794" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
